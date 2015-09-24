@@ -34,12 +34,11 @@ names(merged_data)[2]<-"Activity"
 ##label activities values##
 merged_data$Activity<-factor(merged_data$Activity, labels=activity_labels[,2])
 
-##tidy dataset
-library(dplyr)
-tidy_data<-
-       group_by(merged_data, Activity, SubjectId) %>%
-       summarise(mean(3:66)) %>%
-       write.table("tidy_data.txt", row.name=FALSE)
+##tidy dataset: columns 3:68 contain the measurements
+library(plyr)
+tidy_data <- ddply(merged_data, .(SubjectId, Activity), function(x) colMeans(x[, 3:68]))
+
+write.table(tidy_data, "UCI HAR Dataset/tidy_data.txt", row.name=FALSE)
 
 
 
