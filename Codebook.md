@@ -19,82 +19,68 @@ subject - The ID of the test subject
 6. LAYING (value 6): subject was laying down during the test
 
 ##Variable Names
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
+1. tBodyAccMeanX
+2. tBodyAccMeanY
+3. tBodyAccMeanZ
+4. tBodyAccStdX
+5. tBodyAccStdY
+6. tBodyAccStdZ
+7. tGravityAccMeanX
+8. tGravityAccMeanY
+9. tGravityAccMeanZ
+10. tGravityAccStdX
+11. tGravityAccStdY
+12. tGravityAccStdZ
+13. tBodyAccJerkMeanX
+14. tBodyAccJerkMeanY
+15. tBodyAccJerkMeanZ
+16. tBodyAccJerkStdX
+17. tBodyAccJerkStdY
+18. tBodyAccJerkStdZ
+19. tBodyGyroMeanX
+20. tBodyGyroMeanY
+21. tBodyGyroMeanZ
+22. tBodyGyroStdX
+23. tBodyGyroStdY
+24. tBodyGyroStdZ
+25. tBodyGyroJerkMeanX
+26. tBodyGyroJerkMeanY
+27. tBodyGyroJerkMeanZ
+28. tBodyGyroJerkStdX
+29. tBodyGyroJerkStdY
+30. tBodyGyroJerkStdZ
+32. tBodyAccMagMean
+33. tBodyAccMagStd
+34. tGravityAccMagMean
+35. tGravityAccMagStd
+36. tBodyAccJerkMagMean
+37. tBodyAccJerkMagStd
+38. tBodyGyroMagMean
+39. tBodyGyroMagStd
+40. tBodyGyroJerkMagMean
+41. tBodyGyroJerkMagStd
+42. fBodyAccMeanX
+43. fBodyAccMeanY
+44. fBodyAccMeanZ
+45. fBodyAccStdX
+46. fBodyAccStdY
+47. fBodyAccStdZ
+48. fBodyAccJerkMeanX
+49. fBodyAccJerkMeanY
+50. fBodyAccJerkMeanZ
+51. fBodyAccJerkStdX
+52. fBodyAccJerkStdY
+53. fBodyAccJerkStdZ
+54. fBodyGyroMeanX
+55. fBodyGyroMeanY
+56. fBodyGyroMeanZ
+57. fBodyGyroStdX
+58. fBodyGyroStdY
+59. fBodyGyroStdZ
+60. fBodyAccMagMean
+61. fBodyAccMagStd
+62. fBodyBodyAccJerkMagMean
+63. fBodyBodyAccJerkMagStd
+64. fBodyBodyGyroMagMean
+65. fBodyBodyGyroMagStd
+66. fBodyBodyGyroJerkMagMean
