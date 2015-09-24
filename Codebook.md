@@ -84,3 +84,4 @@ subject - The ID of the test subject
 64. fBodyBodyGyroMagMean
 65. fBodyBodyGyroMagStd
 66. fBodyBodyGyroJerkMagMean
+67. fBodyBodyGyroJerkMagStd
